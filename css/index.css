@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+
+.navbar {
+    --bs-navbar-padding-y: 0rem!important;
+}
+
+body{
+    background-color: rgb(255, 248, 238);
+    font-size: larger;
+}
+
+header{
+    font-size: larger;
+}
+
+
+
+
+
+
+
+
+

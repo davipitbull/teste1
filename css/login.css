@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display&display=swap');
+
+
+
+
+.navbar {
+    --bs-navbar-padding-y: 0rem!important;
+}
+
+body{
+    background-color: rgb(255, 248, 238);
+    font-size: larger;
+}
+
+header{
+    font-size: larger;
+}

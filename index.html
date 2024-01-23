@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzaria Delicious</title>
+    <link rel="icon" href="img/logo.png">
+    <!-- Inclua os links para o Bootstrap 5.3.2 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <header style="font-family: 'Sedgwick Ave Display', cursive;">
+        <!-- Navbar Bootstrap -->
+        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(71, 187, 71); padding: 10px;">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt="" width="40px" height="40px"></a>
+            <a class="navbar-brand" href="#" style="font-size: larger;">Pizzaria Delicious</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Início</a>
+                    </li>
+                    <li>
+                        <div class="nav-link"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="cardapio.html">Cardápio</a>
+                    </li>
+                    <li>
+                        <div class="nav-link"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="" data-bs-toggle="modal" data-bs-target="#contato">Contato</a>
+                    </li>
+                    <li>
+                        <div class="nav-link"></div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="login.html">Entrar</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <hr>
+
+    <div class="container-fluid" style="width: 95%;">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="img/carrosel (1).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrosel (2).jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="img/carrosel (3).jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container text-center">
+
+        <img src="img/logo.png" alt="" style="width: 150px; height: 150px;">
+        <br>
+        Horário de funcionamento
+        <br>
+        11:00 às 22:45
+        <br>
+        <strong>Pedido mínimo - 30,00R$</strong>
+        <br>
+        <a class="btn btn-success" role="button" href="login.html"><strong>Faça login e ganhe descontos!!</strong></a>
+
+    </div>
+
+    <hr>
+
+    <section class="container mt-5">
+        <h1>Nossas Famosas Pizzas</h1>
+        <div class="row text-center">
+            <!-- Espaços para imagens do cardápio -->
+            <div class="col-4 mb-4">
+                <a href="cardapio.html" style="text-decoration: none; color: black;">
+                    <img src="img/pizzaCalabresa.png" alt="Pizza 1" class="img-fluid" height="100%" width="100%">
+                    <strong>Pizza de Calabresa</strong>
+                    <br>
+                    <small>A partir de <div style="color: green;">55,90R$</div></small>
+                </a>
+            </div>
+            <div class="col-4 mb-4">
+                <a href="cardapio.html" style="text-decoration: none; color: black;">
+                    <img src="img/pizzaFrango.png" alt="Pizza 2" class="img-fluid" height="100%" width="100%">
+                    <strong>Pizza de Frango c/Catupity</strong>
+                    <br>
+                    <small>A partir de <div style="color: green;">55,90R$</div></small>
+                </a>
+            </div>
+            <div class="col-4 mb-4">
+                <a href="cardapio.html" style="text-decoration: none; color: black;">
+                    <img src="img/pizzaQuatroQ.png" alt="Pizza 3" class="img-fluid" height="100%" width="100%">
+                    <strong>Pizza de Quatro Queijos</strong>
+                    <br>
+                    <small>A partir de <div style="color: green;">55,90R$</div></small>
+                </a>
+            </div>
+        </div>
+
+        <div class="row text-center">
+            <!-- Espaços para imagens do cardápio -->
+            <div class="col-4 mb-4">
+                <a href="cardapio.html" style="text-decoration: none; color: black;">
+                    <img src="img/pizza_strogonoff.png" alt="Pizza 1" class="img-fluid" height="100%" width="100%">
+                    <strong>Pizza de Strgonoff</strong>
+                    <br>
+                    <small>A partir de <div style="color: green;">55,90R$</div></small>
+                </a>
+            </div>
+            <div class="col-4 mb-4">
+                <a href="cardapio.html" style="text-decoration: none; color: black;">
+                    <img src="img/pizza_portuguesa.png" alt="Pizza 2" class="img-fluid" height="100%" width="100%">
+                    <strong>Pizza Portuguesa</strong>
+                    <br>
+                    <small>A partir de <div style="color: green;">55,90R$</div></small>
+                </a>
+            </div>
+            <div class="col-4 mb-4">
+                <a href="cardapio.html" style="text-decoration: none; color: black;">
+                    <img src="img/pizzaCamarão.png" alt="Pizza 3" class="img-fluid" height="100%" width="100%">
+                    <strong>Pizza de Camarão</strong>
+                    <br>
+                    <small>A partir de <div style="color: green;">55,90R$</div></small>
+                </a>
+            </div>
+        </div>
+
+        <div class="container text-center">
+            <a class="btn btn-success" role="button" href="cardapio.html"><strong>Conheça o nosso cardápio!</strong></a>
+        </div>
+
+    </section>
+
+    <hr>
+
+    <section class="container">
+        <div class="row">
+
+
+            <div class="col-6">
+                <h2>A nossa história</h2>
+                <p>
+                    Havia uma pequena pizzaria escondida em uma rua tranquila da cidade chamada "Pizzaria Delicious".
+                    Não
+                    era o
+                    restaurante mais chique da cidade, nem o mais moderno, mas tinha algo especial que o diferenciava -
+                    a
+                    paixão
+                    pela pizza e a busca pela perfeição.
+                </p>
+
+                <p>A história da Pizzaria Delicious começou há muitos anos, quando o Sr. Giovanni, um talentoso
+                    pizzaiolo
+                    italiano, decidiu
+                    abrir seu próprio restaurante. Ele trouxe consigo uma antiga receita de massa de pizza que tinha
+                    sido
+                    passada de geração
+                    em geração em sua família. Era uma receita secreta, uma mistura mágica de farinha, água e
+                    amor...
+                    <button type="button" class="" data-bs-toggle="modal" data-bs-target="#historia">
+                        Ler mais
+                    </button>
+                </p>
+
+
+                <h1>Dê o seu depoimento</h1>
+                <form action="#" method="post">
+                    <!-- Campo de E-mail -->
+                    <div class="mb-3">
+                        <label for="email" class="form-label">E-mail:</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                    </div>
+
+                    <!-- Campo de Nome -->
+                    <div class="mb-3">
+                        <label for="nome" class="form-label">Nome:</label>
+                        <input type="text" class="form-control" id="nome" name="nome" required>
+                    </div>
+
+                    <!-- Campo de Número de Telefone (apenas números) -->
+                    <div class="mb-3">
+                        <label for="telefone" class="form-label">Número de Telefone (apenas números):</label>
+                        <input type="number" class="form-control" id="telefone" name="telefone" pattern="\d+" required
+                            maxlength="11">
+                    </div>
+
+                    <!-- Caixa de Texto para Depoimento -->
+                    <div class="mb-3">
+                        <label for="depoimento" class="form-label">Depoimento:</label>
+                        <textarea class="form-control" id="depoimento" name="depoimento" rows="4" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Enviar Depoimento</button>
+                </form>
+
+            </div>
+
+            <div class="col-6">
+                <div class="row">
+                    <h1>Aonde estamos</h1>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60409.30952401523!2d-41.95959570583919!3d-18.861251737029754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb1a79c863cf741%3A0x36a0a3c684f4e49!2sColiseu%20pizzaria!5e0!3m2!1spt-BR!2sbr!4v1695528799260!5m2!1spt-BR!2sbr"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <br>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <p class="footer-text">
+                        &copy; 2023 Pizzaria Delicious. Todos os direitos reservados.
+                    </p>
+                </div>
+                <div class="col-6 text-end">
+                    <ul class="list-inline footer-icons">
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-facebook">
+                                    <img src="img/fb.png" alt="" height="30px">
+                                </i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-youtube">
+                                    <img src="img/yt.png" alt="" height="30px">
+                                </i></a></li>
+                        <li class="list-inline-item"><a href="#"><i class="fab fa-instagram">
+                                    <img src="img/ig.png" alt="" height="30px">
+                                </i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Button trigger modal -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="historia" tabindex="-1" aria-labelledby="exa" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">A nossa historia...</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>
+                        Havia uma pequena pizzaria escondida em uma rua tranquila da cidade chamada "Pizzaria
+                        Delicious".
+                        Não
+                        era o
+                        restaurante mais chique da cidade, nem o mais moderno, mas tinha algo especial que o
+                        diferenciava -
+                        a
+                        paixão
+                        pela pizza e a busca pela perfeição.
+                    </p>
+
+                    <p>A história da Pizzaria Delicious começou há muitos anos, quando o Sr. Giovanni, um talentoso
+                        pizzaiolo
+                        italiano, decidiu
+                        abrir seu próprio restaurante. Ele trouxe consigo uma antiga receita de massa de pizza que tinha
+                        sido
+                        passada de geração
+                        em geração em sua família. Era uma receita secreta, uma mistura mágica de farinha, água e
+                        amor...
+                    </p>
+
+                    <p>Desde o início, o Sr. Giovanni colocou seu coração e alma na pizzaria. Ele passava horas todos os
+                        dias
+                        preparando a
+                        massa à mão, escolhendo os ingredientes mais frescos e preparando os molhos com ervas colhidas
+                        de
+                        seu
+                        jardim. Cada pizza
+                        era uma obra de arte, e ele acreditava que cada mordida deveria ser uma experiência
+                        inesquecível.
+                    </p>
+
+                    <p>Os anos se passaram, e a Pizzaria Delicious ganhou uma base de clientes leais. As pessoas vinham
+                        não
+                        apenas pela comida
+                        deliciosa, mas também pelo caloroso sorriso do Sr. Giovanni e pelo ambiente acolhedor do
+                        restaurante. As
+                        paredes estavam
+                        decoradas com fotografias de clientes satisfeitos e notas de agradecimento escritas à mão.</p>
+
+                    <p>Um dia, uma cliente especial entrou na Pizzaria Delicious. Era a Sra. Maria, uma senhora idosa
+                        que
+                        morava
+                        na vizinhança.
+                        Ela havia perdido o marido recentemente e estava passando por um momento difícil. A pizzaria era
+                        o
+                        lugar
+                        onde ela e seu
+                        marido costumavam celebrar ocasiões especiais juntos.</p>
+
+                    <p>O Sr. Giovanni a reconheceu imediatamente e a cumprimentou com carinho. Ele acomodou a Sra. Maria
+                        em
+                        sua
+                        mesa favorita e
+                        trouxe sua pizza preferida, uma margherita com tomates frescos e manjericão. Durante a refeição,
+                        eles
+                        compartilharam
+                        histórias e lembranças. O restaurante estava cheio de risos e lágrimas.</p>
+
+                    <p>Naquela noite, quando a Sra. Maria estava prestes a sair, o Sr. Giovanni a surpreendeu com uma
+                        caixa
+                        de
+                        pizza especial
+                        para viagem. Dentro da caixa, havia uma fatia extra da pizza favorita de seu marido e uma carta
+                        escrita
+                        à mão. Era uma
+                        maneira de o Sr. Giovanni lembrar à Sra. Maria que ela nunca estava sozinha.</p>
+
+                    <p>A Sra. Maria saiu da Pizzaria Delicious com lágrimas nos olhos, mas também com um sorriso no
+                        rosto. A
+                        pizzaria havia se
+                        tornado mais do que apenas um lugar para comer; era um refúgio de amor e compaixão.</p>
+
+                    <p>A história da Pizzaria Delicious continua a ser contada a cada cliente que entra pelas suas
+                        portas. É
+                        uma
+                        história de
+                        amor pela comida e pela comunidade, onde uma simples fatia de pizza pode trazer conforto e
+                        alegria
+                        nos
+                        momentos mais
+                        difíceis. A Pizzaria Delicious não é apenas sobre pizza; é sobre criar memórias que duram para
+                        sempre.
+                    </p>
+
+                    <p>
+                        E assim, a pequena pizzaria na rua tranquila continuou a alimentar corações famintos com a mais
+                        deliciosa pizza
+                        e uma dose generosa de carinho. A "Pizzaria Delicious" era mais do que um restaurante; era um
+                        lugar
+                        onde
+                        as
+                        histórias se misturavam com o aroma tentador da pizza, tornando cada visita uma experiência
+                        verdadeiramente
+                        emocionante e inesquecível.
+                    </p>
+
+
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Disk Pizzaria Delicious</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <strong>Contate-nos via <a href="//wa.me//5533987287901" target="_blank">Whatsapp</a></strong>
+                    <br>
+                    <strong>Siga-nos pelo <a href="https://www.instagram.com" target="_blank">Instagram</a></strong>
+                    <br>
+                    <strong>Acompanhe nossas receitas pelo <a href="https://www.youtube.com"
+                            target="_blank">Youtube</a></strong>
+                    <br>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Inclua os scripts do Bootstrap 5.3.2 no final do corpo do documento -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
